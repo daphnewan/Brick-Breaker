@@ -1,2 +1,6 @@
+res://ball.tscn
+res://ball.gd
 res://Scenes/main.tscn
 res://Scenes/paddle.tscn
+res://Scripts/paddle.gd
+res://wall.tscn

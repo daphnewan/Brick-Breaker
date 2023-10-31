@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698353909
-::res://Assets/::1698353828
+::res://::1698439564
+ball.tscn::PackedScene::5506425153478998986::1698439505::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+::res://Assets/::1698438787
 Ball.png::CompressedTexture2D::7113742415800555843::1698092306::1698353910::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1698092306::1698353910::1::::<><>::
 Brick-Gray.png::CompressedTexture2D::8342798054112985360::1698092306::1698353910::1::::<><>::
@@ -11,8 +12,8 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698092306::16983539
 icon.svg::CompressedTexture2D::7753658774376271310::1698092306::1698353910::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698092306::1698353910::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698092306::1698353910::1::::<><>::
-::res://Scenes/::1698353829
-main.tscn::PackedScene::637339287742792784::1698353573::0::1::::<><>::uid://cwq28dj4xgn1a::::res://Scenes/paddle.tscn
-paddle.tscn::PackedScene::6351724434313332008::1698352153::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-::res://Scripts/::1698353829
+::res://Scenes/::1698439505
+main.tscn::PackedScene::637339287742792784::1698439505::0::1::::<><>::uid://cwq28dj4xgn1a::::res://Scenes/paddle.tscn
+paddle.tscn::PackedScene::6351724434313332008::1698439505::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+::res://Scripts/::1698438537
 paddle.gd::GDScript::-1::1698176277::0::1::::Paddle<>RigidBody2D<>::
