@@ -36,7 +36,6 @@ func _input(event):
 		direction =  Vector2.RIGHT
 	else:
 		direction = Vector2.ZERO
-		
 	if direction != Vector2.ZERO && !is_ball_started:
 		ball.start_ball()
 		is_ball_started = true
