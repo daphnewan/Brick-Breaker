@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 class_name Ball
 
-signal life_lost
+signal lifes_lost
 
 const VELOCITY_LIMIT  = 40
 
@@ -46,6 +46,7 @@ func on_life_lost():
 		lifes_lost.emit()
 		reset_ball()
 		ui.set_lifes(lifes)
+		
 func reset_ball():
 	position = start_position
 	velocity = Vector2.ZERO
