@@ -9,3 +9,5 @@ res://ui.tscn
 res://Scripts/brick.gd
 res://ball.gd
 res://Scripts/paddle.gd
+res://Scripts/level_definitions.gd
+res://Scripts/ui.gd
