@@ -20,7 +20,7 @@ var sprites: Array[Texture2D] = [
 ]
 
 func get_size():
-	return collision_shape_2d.shape.get_rect().size * sprite_2d.scale
+	return collision_shape_2d.shape.get_rect().size
 	
 
 func set_level(new_level: int):
@@ -30,8 +30,9 @@ func set_level(new_level: int):
 func decrease_level():
 	if level > 1:
 		set_level(level - 1)
-	else:
+	else: 
 		fade_out()
+		
 		
 func fade_out():
 	collision_shape_2d.disabled = true
@@ -40,8 +41,9 @@ func fade_out():
 	tween.tween_callback(destroy)
 	
 func destroy():
-		queue_free()
-		brick_destroyed.emit()
+	queue_free()
+	brick_destroyed.emit()
 	
 func get_width():
 	return get_size().x
+

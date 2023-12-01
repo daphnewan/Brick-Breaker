@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://jcy5dagevfie"]
+[gd_scene load_steps=9 format=3 uid="uid://jcy5dagevfie"]
 
 [ext_resource type="PackedScene" uid="uid://cwq28dj4xgn1a" path="res://Scenes/paddle.tscn" id="1_sdvnj"]
 [ext_resource type="PackedScene" uid="uid://bjystpxn08yfi" path="res://ui.tscn" id="1_xn41v"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bcyv8jr26go51" path="res://area_2d.tscn" id="5_3l3kp"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_o3xev"]
 [ext_resource type="PackedScene" uid="uid://ctf4r0v7ugrmc" path="res://Scenes/brick.tscn" id="7_yib24"]
+[ext_resource type="AudioStream" uid="uid://caoxy6xp15elb" path="res://Assets/712334__davejf__melody-loop.mp3" id="8_hxul2"]
 
 [node name="main" type="Node"]
 
@@ -54,3 +55,6 @@ spawn_start = NodePath("../Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(0, -163)
+
+[node name="Background Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_hxul2")

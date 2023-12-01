@@ -19,6 +19,7 @@ var last_collider_id
 
 
 @onready var collision_shape_2d = $CollisionShape2D
+@onready var background_music = $"../Background Music"
 
 
 
@@ -26,6 +27,7 @@ func _ready():
 	ui.set_lifes(lifes)
 	start_position = position
 	death_zone.life_lost.connect(on_life_lost)
+	background_music.play()
 
 func _physics_process(delta):
 	var collision = move_and_collide(velocity * ball_speed * delta)
